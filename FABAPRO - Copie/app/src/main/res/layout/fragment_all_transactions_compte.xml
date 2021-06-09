@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colora3"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AllTransactionsCompte">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Creditation de compte"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/white"
+                android:layout_height="100dp">
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/recyclertransaction" />
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/we"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Utilisation de credit"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@android:color/white"
+                android:layout_marginBottom="20dp"
+                android:layout_height="100dp">
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/recyclerutilisation" />
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/p2"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

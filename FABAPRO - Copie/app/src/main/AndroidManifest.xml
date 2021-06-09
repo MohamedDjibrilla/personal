@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rpi.fabapro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.affichage"></activity>
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
+        <activity android:name=".Activities.ShowImages" />
+        <activity android:name=".Activities.Discussion" />
+        <activity android:name=".Activities.DetailsDocteurs" />
+        <activity android:name=".Activities.DetailsRestorations" />
+        <activity android:name=".Activities.DetailsServices" />
+        <activity android:name=".Activities.Join" />
+        <activity android:name=".Activities.Restaurations" />
+        <activity android:name=".Activities.Services" />
+        <activity android:name=".Activities.Docteurs" />
+        <activity android:name=".Activities.Inscription" />
+        <activity android:name=".Activities.Manuel" />
+        <activity android:name=".Activities.Assistance" />
+        <activity android:name=".Activities.Terms" />
+        <activity android:name=".Activities.CompteCredit" />
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

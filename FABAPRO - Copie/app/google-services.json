@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "1088182833298",
+    "firebase_url": "https://faba-pro-finnal.firebaseio.com",
+    "project_id": "faba-pro-finnal",
+    "storage_bucket": "faba-pro-finnal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088182833298:android:842904d26b213405",
+        "android_client_info": {
+          "package_name": "com.example.fabaproclients"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088182833298-1dnbo5btk1odu67oacrkct24emp0qnnm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fabaproclients",
+            "certificate_hash": "113d4ecf0ac8c527b50cd6ed5285079b9fdf16e7"
+          }
+        },
+        {
+          "client_id": "1088182833298-7frs30g5tm3vr5fu4ulhmskbuj4ucmc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "ContactMe@ djibrillamoh@gmail.com"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088182833298-7frs30g5tm3vr5fu4ulhmskbuj4ucmc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088182833298:android:d505e5c77edf57a9",
+        "android_client_info": {
+          "package_name": "com.example.r2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088182833298-jsukp77ref7itthnqvarsd73be1p62qt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.r2",
+            "certificate_hash": "113d4ecf0ac8c527b50cd6ed5285079b9fdf16e7"
+          }
+        },
+        {
+          "client_id": "1088182833298-7frs30g5tm3vr5fu4ulhmskbuj4ucmc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKkvZi_n98jqUavB7-CifvTqVQy_-VgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088182833298-7frs30g5tm3vr5fu4ulhmskbuj4ucmc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088182833298:android:5f5ec54c02c714c573164b",
+        "android_client_info": {
+          "package_name": "com.rpi.fabapro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088182833298-quogtl59mlt1mh0cd6o5e2u0eph85040.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rpi.fabapro",
+            "certificate_hash": "113d4ecf0ac8c527b50cd6ed5285079b9fdf16e7"
+          }
+        },
+        {
+          "client_id": "1088182833298-7frs30g5tm3vr5fu4ulhmskbuj4ucmc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKkvZi_n98jqUavB7-CifvTqVQy_-VgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088182833298-7frs30g5tm3vr5fu4ulhmskbuj4ucmc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

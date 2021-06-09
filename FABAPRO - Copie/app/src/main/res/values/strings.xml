@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FABA PRO</string>
+    <string name="inscription">Inscription</string>
+    <string name="nom">com.rpi.fabapro.Activities.nom</string>
+    <string name="switcher">com.rpi.fabapro.Activities.switcher</string>
+    <string name="pass">com.rpi.fabapro.Activities.pass</string>
+    <string name="username">com.rpi.fabapro.Activities.username</string>
+    <string name="credit">com.rpi.fabapro.Activities.credit</string>
+    <string name="seconnecter">Connecter</string>
+    <string-array name="Accueil">
+        <item>connecter</item>
+        <item>inscription</item>
+        <item>Deconnecter</item>
+    </string-array>
+    <string name="la_politique_de_confidentialite">En vous inscrivant, vous confirmez avoir lu et accepté(s) les termes et Conditions de la politique de confidentialite</string>
+    <string-array name="crediter">
+        <item>Airtel Money</item>
+        <item>Al-Izza</item>
+        <item>Bnif</item>
+        <item>Moov Flooz</item>
+        <item>Nita</item>
+        <item>Orange Money</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colora3"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:background="@color/colorAccueil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_weight="1"
+                app:titleTextColor="@android:color/white"
+                android:background="@color/colorAccueil"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:title="FABA PRO" />
+
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="@color/join"
+        android:layout_gravity="end"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:elevation="5dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="Utilisateur: " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:id="@+id/username"
+                android:text="Déconnecté" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@color/join"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="80dp"
+                android:text="Credit: " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:id="@+id/balance"
+                android:text="0" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_vertical"
+        android:elevation="20dp"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/spinneraccueil"
+            android:layout_height="40dp"
+            android:elevation="5dp"
+            android:textAlignment="center"
+            android:background="@color/contrastaccueil" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:id="@+id/connection"
+            android:elevation="5dp"
+            android:background="@android:color/white"
+            android:layout_marginTop="40dp"
+            android:visibility="visible"
+            android:layout_height="200dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_email_black_24dp" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:imeOptions="actionNext"
+                    android:inputType="textWebEmailAddress"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/email"
+                    android:hint="         moi @ gmail.com" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_lock_black_24dp" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:id="@+id/passwor"
+                    android:imeOptions="actionDone"
+                    android:textColor="@android:color/black"
+                    android:hint="                  ******"
+                    android:inputType="textPassword" />
+                <CheckBox
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:id="@+id/cpass"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <CheckBox
+                android:layout_gravity="center_horizontal"
+                android:text="Se souvenir de mon compte"
+                android:id="@+id/ccompte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+<ProgressBar
+    android:layout_width="10dp"
+    android:layout_height="10dp"
+    android:visibility="invisible"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/w"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/connecterbtn"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:text="@string/seconnecter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/ouvrir"
+            android:elevation="5dp"
+            android:background="@android:color/white"
+            android:layout_marginTop="40dp"
+            android:visibility="invisible"
+            android:layout_height="200dp">
+
+            <Button
+                android:id="@+id/inscription"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@color/colora3"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:text="@string/inscription"
+                android:layout_marginTop="50dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/deconnecter"
+            android:elevation="5dp"
+            android:background="@android:color/white"
+            android:layout_marginTop="40dp"
+            android:visibility="invisible"
+            android:layout_height="200dp">
+
+            <Button
+                android:id="@+id/deconnecterbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="Deconnecter"
+                android:background="@color/colora3"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="50dp"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+<TextView
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nos Services"
+    android:textSize="20sp"
+    android:background="@android:color/white"
+    android:textColor="@android:color/black"/>
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/doc"
+    android:background="@android:color/white"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/health1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="Docteurs"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/pro"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/image"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Professionnels"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/res"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:elevation="20dp"
+        android:layout_height="200dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/restauration1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Restaurations"/>
+    </LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:textColor="@android:color/black"
+    android:text="FABA PRO, le Reseau de Professionnels"/>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_CompteMail"
+        android:orderInCategory="100"
+        android:title="Compte Utilisateur"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_assistance"
+        android:orderInCategory="100"
+        android:title="Assistance"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Manuel d'utilisation"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/Policy"
+        android:orderInCategory="100"
+        android:title="Termes d'utilisation"
+        app:showAsAction="never" />
+</menu>

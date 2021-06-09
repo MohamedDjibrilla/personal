@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colora3"
+    tools:context=".Fragments.CrediterMonCompte">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/crediterspinner"
+            android:background="@color/contrastaccueil"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:background="@android:color/white"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/airtelmoney"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:visibility="invisible"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Envoyeur: 96000000, 97000000, 98000000 .."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/alizza"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:visibility="invisible"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Envoyeur: Moussa, Issa, Harouna ... " />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/bnif"
+                android:visibility="invisible"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Envoyeur: Moussa, Issa, Harouna ..."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/moovflooz"
+                android:visibility="invisible"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Envoyeur: 84000000, 94000000, 94111111 ..."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/nita"
+                android:visibility="invisible"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Envoyeur: Moussa, Issa, Harouna..."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/orangemoney"
+                android:visibility="invisible"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Envoyeur: 9000000, 91000000, 92000000 ..."/>
+            </LinearLayout>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:id="@+id/first"
+                android:text="Envoyeur" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:id="@+id/recepteur"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:hint="Envoyeur"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Canal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/canal"
+                android:textColorHint="@android:color/black"
+                android:textColor="@android:color/black"
+                android:hint="Al-izza,Airtel money..."
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:text="transaction_ID" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:id="@+id/transctionid"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="00000sdfd000sd0..."
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:text="Montant" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:id="@+id/montant"
+                android:hint="2 000, 5 000, 100 000 ..."
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Envoyer"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/comptecreditenvoyer"
+            android:textColor="@android:color/white"
+            android:background="@color/contrastaccueil"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

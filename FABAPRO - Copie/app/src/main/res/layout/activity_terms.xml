@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/f1"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Terms">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Manuel Utilisateur"
+            android:background="@android:color/white"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:layout_weight="1.8"
+            android:layout_height="30dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerterms"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

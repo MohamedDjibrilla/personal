@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_marginLeft="10dp"
+    android:elevation="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:background="@color/colorb1"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:id="@+id/t1"
+            android:text="Titre du plats"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_alarm_on_black_24dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text=" 30 Min"
+            android:textSize="10sp"
+            android:id="@+id/t2"
+            android:textColor="@android:color/white"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="25dp"
+            android:text="3500F"
+            android:id="@+id/t3"
+            android:textSize="10sp"
+            android:textColor="@android:color/white"/>
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_motorcycle_black_24dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text=" 20 Min"
+            android:id="@+id/t4"
+            android:textSize="10sp"
+            android:textColor="@android:color/white"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:id="@+id/t5"
+            android:layout_height="25dp"
+            android:textColor="@android:color/white"
+            android:text="1000F"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="75dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:textSize="10sp"
+            android:id="@+id/t6"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/black"
+            android:text="Petite description du plats dcpnuecverve ybv99e8 rnveuv nepivevnv "
+            />
+        <ImageView
+            android:layout_width="0dp" android:layout_weight="1.3"
+            android:src="@drawable/fabamedical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/pnpaccueilrecyclerphoto"
+            android:layout_height="55dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

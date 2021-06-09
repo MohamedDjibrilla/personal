@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/f1"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Manuel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Manuel Utilisateur"
+            android:background="@android:color/white"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:layout_weight="1.8"
+            android:layout_height="30dp" />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="left"
+        android:background="@drawable/shape"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="50dp"
+        android:text=" Vous pourrez vous referer a ce manuel en cas de besoin."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="left"
+        android:background="@drawable/shape"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"
+        android:text="1- Comment m'inscrire sur FABA PRO ?"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="200dp"
+            android:src="@drawable/a2"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="200dp"
+            android:src="@drawable/a1"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="left"
+        android:background="@drawable/shape"
+        android:textColor="@android:color/black"
+        android:text="2- Comment crediter mon compte ?"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_height="200dp"
+            android:src="@drawable/a3"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_height="200dp"
+            android:src="@drawable/a4"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_height="200dp"
+            android:src="@drawable/a5"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_height="200dp"
+            android:src="@drawable/a6"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_height="200dp"
+            android:src="@drawable/a7"/>
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="left"
+            android:background="@drawable/shape"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp"
+            android:text="3- Comment contacter un docteur ?"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp" android:layout_weight="1"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/a2"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/q4"/>
+            <ImageView
+                android:layout_width="0dp" android:layout_weight="1"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/a2"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/q4"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="left"
+            android:background="@drawable/shape"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp"
+            android:text="4- Comment contacter un restaurant ou professionnel ?"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp" android:layout_weight="1"
+                android:layout_height="200dp"
+                android:src="@drawable/a2"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="200dp"
+                android:src="@drawable/a1"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="left"
+            android:background="@drawable/shape"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp"
+            android:text="4- Comment commenter les services d'un professionnel ?"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp" android:layout_weight="1"
+                android:layout_height="200dp"
+                android:src="@drawable/q1"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="200dp"
+                android:src="@drawable/q3"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

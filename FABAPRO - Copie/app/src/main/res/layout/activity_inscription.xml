@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colora3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Inscription">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/contrastaccueil"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:id="@+id/back"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
+                android:text="Creer un Compte"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_email_black_24dp"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:id="@+id/email"
+                android:inputType="textWebEmailAddress"
+                android:imeOptions="actionNext"
+                android:hint="Email: moi @ gmail.com"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_account_circle_black_24dp"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:id="@+id/utilisateur"
+                android:hint="utilisateur: maimouna ..."
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_lock_black_24dp"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:id="@+id/password"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:hint="mot de passe: ******"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_phone_black_24dp"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:id="@+id/phone"
+                android:imeOptions="actionNext"
+                android:inputType="numberSigned"
+                android:hint="telephone: 96980000"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            android:id="@+id/progress"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_work_black_24dp"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:id="@+id/profession"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:hint="profession: Enseignante,Comptable ..."
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/c1"
+            android:imeOptions="actionNext"
+            android:text="Avez vous ete recommande?"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_account_circle_black_24dp"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:id="@+id/recommande"
+                android:hint="nom du recomandant: maimouna ..."
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/la_politique_de_confidentialite" android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inscrire"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:background="@color/contrastaccueil"
+            android:text="S' Inscrire" />
+
+    </LinearLayout>
+</ScrollView>

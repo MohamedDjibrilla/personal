@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colora3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CompteUtilisateur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="13sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="Servez vous de cette page pour toutes les informations concernant les tansferts de credits"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="13sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="Contacter Nous  en cas de probleme avec la recharge dans votre onglet ( parametre --> assistance )"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="5dp"
+                android:text="Numero de Transaction (BNIF, AL-IZZA, NITA)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:id="@+id/UID"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pr"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="5dp"
+                android:text="Numero Airtel Money" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:text="00 227 89979764"
+                android:id="@+id/airtelnum"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="5dp"
+                android:text="Numero Orange Money" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:text="00 227 91638479"
+                android:id="@+id/orangenum"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="5dp"
+                android:text="Numero Moov Flooz" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:text="00 227 84512353"
+                android:id="@+id/moovnum"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="FABA PRO, le reseau de professionnels."
+            />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
